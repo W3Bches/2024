@@ -1,0 +1,179 @@
+body{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 100%;
+}
+
+#header{
+	display: flex;
+	background: #3F3F3F;
+	color: white;
+	max-width: 100%;
+	max-height: 140px;
+}
+
+#messengers{
+	background: #4169E1;
+	max-width: 13%;
+	padding: 4px;
+}
+#welcome{
+	max-width: 880px;
+	padding-left: 6px;
+	padding-top: 6px;
+	font-size: 48px;
+	font-family: Geneva, Arial;
+}
+#msg_banner{
+	width: 100%;
+	text-align: bottom;
+	display: flex;
+	padding: 0;
+}
+
+#discord{
+	width: 260px;
+	height: 40px;
+}
+
+
+#usico{
+	width:140px;
+	height: 140px;
+}
+
+#cnt_banner{
+	background: gray;
+	width: 200px;
+	height: 200px;
+	margin-top: 8px;
+}
+
+#viruses{
+	width: 100%;
+	height: 80px;
+}
+
+#bottom_banner{
+	background: #3F3F3F;
+	max-height: 160px;
+	text-align: center;
+	padding: 6px;
+}
+
+#wrapper{
+	
+}
+#content_banner{
+	background: #F5F5F5;
+	display: flex;
+	justify-content: flex-end;
+	height: 233px;
+	max-width: 100%;
+}
+
+@media (max-width:1200px){
+	#header{
+		max-width: 1200px;
+	}
+}
+@media (max-width:992px){
+	#header{
+		max-width: 992px;
+	}
+	#discord{
+		max-width: 180px;
+
+	}
+}
+
+@media (max-width:767px){
+	#header{
+		max-width: none;
+	}
+	#discord{
+		max-width: 110px;
+		font-size: 14px;
+	}
+	#welcome{
+		font-size: 45px;
+	}
+}
+@media (max-width:476px){
+	#header{
+		max-width: none;
+		max-height: 480px;
+	}
+	#welcome{
+		font-size: 32px;
+	}
+	#discord{
+		max-width: 200px;
+		font-size: 12px;
+		padding: 0px;
+	}
+	#content_banner{
+		max-width: 439;
+		
+	}
+	#msg_banner{
+		display: table-caption;
+		padding: 0px;
+	}
+	#usico{
+		width: 205px;
+		height: 205px;
+	}
+}
+@media (max-width:420px){
+	#header{
+		max-width: none;
+		display: block;
+		max-height: 118%;
+	}
+	#welcome{
+		font-size: 0px;
+	}
+	#discord{
+		max-width: 28%;
+		font-size: 11px;
+
+	}
+	#usico{
+		width: 100%;
+		height: 100%;
+	}
+	#cnt_banner{
+		width: 100%;
+		padding-top: 0px;
+	}
+	#msg_banner{
+		text-align: center;
+		justify-content: center;
+		background: red;
+		display: none;
+		padding-bottom: 4px;
+	}
+
+@media (max-width:260px){
+	#header{
+		max-width: none;
+	}
+	#welcome{
+		font-size: 0px;
+	}
+	#discord{
+		max-width: 250px;
+		font-size: 11px;
+		margin-top: 2px;
+	}
+	#usico{
+		width: 260px;
+		height: 260px;
+	}
+	#bottom_banner{
+		display: table-caption;
+		max-width: 260px;
+	}
+}
